@@ -1,0 +1,9 @@
+body {
+    background: #F3F5FC;
+}
+
+.imagenLogo {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
