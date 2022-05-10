@@ -5,10 +5,43 @@
 		<title>Encriptador de Texto</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
 	</head>
+
 	<body>
-		<div class="principal">
-			<img src="imagenes/logo.png" class="imagenLogo">
-		</div>
+		<header>
+			<img src="imagenes/logo.png" class="imagenLogo" alt="Logo Alura">
+		</header>
+
+		<main>
+			
+			<section class="principal">
+
+				<div class="entrada">
+					<textarea class="caja-entrada" required placeholder="Ingrese el texto aquí"></textarea>
+				</div>
+
+				<h6>[!] Solo letras minúsculas y sin acentos</h6>
+
+				<div>
+					<button class="boton-encriptar">Encriptar</button>
+					<button class="boton-desencriptar">Desencriptar</button>
+				</div>
+
+				<div class="salida">
+					<textarea class="caja-salida"></textarea>
+				</div>
+
+				<div>
+					<button class="boton-copiar">Copiar</button>
+				</div>
+
+			</section>
+			
+		</main>
+		
 	</body>
+
 </html>
