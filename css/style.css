@@ -23,6 +23,22 @@ body {
 	color: #0A3871;
 }
 
+.rec {
+	width: 40%;
+    text-align: right;
+    padding: 5px 0;
+	font-size: 2em;
+    color: #0A3871;
+}
+
+.recarga {
+	transition: 1s all;
+}
+
+.recarga:hover {
+	transform: rotate(360deg);
+}
+
 /* CSS del main */
 
 .main {
@@ -80,6 +96,7 @@ button {
     font-size: 16px;
     line-height: 19px;
 	transition: 1s all;
+	cursor: pointer;
 }
 
 .btnencripta {

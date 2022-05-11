@@ -3,6 +3,11 @@
 /* obtengo el estado en los textareas html identificados como clases */
 const textoEntrada = document.querySelector(".entrada");
 const textoSalida = document.querySelector(".salida");
+/* obtengo el estado del elemento para recargar página */
+const recarga = document.querySelector(".recarga");
+
+/* Evento para recargar página a petición */
+recarga.addEventListener('click', _ => { location.reload(); });
 
 /* función para inicializar el encriptador */
 function limpiar() {
