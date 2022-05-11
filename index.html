@@ -9,7 +9,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
 	</head>
 
-	<body>
+	<body onload="limpiar()">
 
 		<div class="principal">
 	
@@ -24,8 +24,8 @@
 				<h6 class="h6">Solo letras minúsculas y sin acentos</h6>
 	
 				<div class="btns-main">
-					<button class="btnencripta">Encriptar</button>
-					<button class="btndesencripta">Desencriptar</button>
+					<button class="btnencripta" onclick="botonEncriptar()">Encriptar</button>
+					<button class="btndesencripta" onclick="botonDesencriptar()">Desencriptar</button>
 				</div>
 	
 			</main>
@@ -46,7 +46,7 @@
 				</div>
 	
 				<div class="btns-aside">
-					<button class="btncopia">Copiar</button>
+					<button class="btncopia" onclick="botonCopiar()">Copiar</button>
 				</div>
 	
 			</aside>
